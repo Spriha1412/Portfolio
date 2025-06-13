@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spriha's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body>
+    <div class="background-elements">
+        <div class="bg-circle circle-1"></div>
+        <div class="bg-circle circle-2"></div>
+        <div class="bg-circle circle-3"></div>
+        <div class="bg-circle circle-4"></div>
+    </div>
+
+    <header class="fade-in">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#techstack">TechStack</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#about">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1 class="typewriter-text"></h1>
+                <div class="social-icons">
+                    <a href="https://github.com/Spriha1412" target="_blank" class="icon-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/spriha-320327289" target="_blank" class="icon-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="icon-link" id="resume-icon"><i class="fas fa-file-alt"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <img src="WhatsApp Image 2025-06-06 at 22.02.30_2c8537d6.jpg" alt="Spriha" class="main-profile-img">
+                <img src="WhatsApp Image 2025-06-07 at 01.40.12_5afba9e6.jpg" alt="Spriha on hover" class="hover-profile-img">
+            </div>
+        </section>
+
+        <section id="techstack" class="techstack-section section-hidden">
+            <h2 data-text="Tech Stack">Tech Stack</h2> <div class="tech-list">
+                <div class="tech-category">
+                    <h3>FRONTEND DEVELOPMENT</h3>
+                    <div class="skill-item" data-skill="HTML" data-percentage="95">
+                        <p>HTML</p>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar html-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="CSS" data-percentage="90">
+                        <p>CSS</p>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar css-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="JavaScript" data-percentage="85">
+                        <p>JavaScript</p>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar js-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="ReactJS" data-percentage="50">
+                        <p>ReactJS</p>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar react-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="Tailwind CSS" data-percentage="75">
+                        <p>Tailwind CSS</p>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar tailwind-progress"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section section-hidden">
+            <h2 data-text="PROJECTS">PROJECTS</h2> <div class="projects-grid">
+                <div class="project-card" data-project="challenge-box">
+                    <a href="https://github.com/Spriha1412/The-Challenge-Box" target="_blank">
+                        <img src="image_0590ae.jpg" alt="The Challenge Box Thumbnail" class="project-thumbnail">
+                        <div class="project-info">
+                            <h3>The Challenge Box</h3>
+                            <p class="status completed">Completed</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-card" data-project="tasktastik">
+                    <img src="image_05948a.png" alt="TaskTastik Thumbnail" class="project-thumbnail">
+                    <div class="project-info">
+                        <h3>TaskTastik</h3>
+                        <p class="status working">Working</p>
+                    </div>
+                </div>
+                <div class="project-card" data-project="NewsSync">
+                    <a href="https://github.com/Spriha1412/NewsSync">
+                    <img src="WhatsApp Image 2025-06-07 at 01.45.52_67240654.jpg" alt="News Portal Thumbnail" class="project-thumbnail">
+                    <div class="project-info">
+                        <h3>News Sync</h3>
+                        <p class="status working">Working</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section section-hidden">
+            <h2 data-text="About me">About me</h2> <div class="about-content">
+                <div class="lottie-container">
+                    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+<dotlottie-player src="https://lottie.host/b3ded0ec-c220-45f8-bb69-a0a9a9e6af45/E3GSdxdt06.lottie" background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
+                </div>
+                <div class="about-text-box">
+                    <p class="about-paragraph section-hidden">Hey! I'm Spriha Jha, a front-end developer passionate about crafting seamless and visually engaging web experiences. With a strong grasp of HTML, CSS, JavaScript, and React, I specialize in building responsive, accessible, and interactive user interfaces.</p>
+                    <p class="about-paragraph section-hidden">I love turning designs into clean code, adding subtle animations, and ensuring everything works smoothly across all devices. My goal is to create websites that not only look good but also feel intuitive to use.</p>
+                    <p class="about-paragraph section-hidden">I'm always curious, learning new tools, and staying updated with the latest in UI/UX and front-end trends.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="resume-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h3>My Resume</h3>
+            <div class="resume-viewer">
+                <iframe src="spriha updated resume.pdf" width="100%" height="500px"></iframe>
+            </div>
+            <a href="spriha updated resume.pdf" download="Spriha_Jha_Resume.pdf" class="download-button">Download Resume</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
